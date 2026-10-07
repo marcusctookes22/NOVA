@@ -41,6 +41,7 @@ export function Shop({
           <option value="all">All colors</option>
           <option value="black">Black</option>
           <option value="bone">Bone</option>
+          <option value="white">White</option>
           <option value="gray">Heather Gray</option>
         </select>
       </label>

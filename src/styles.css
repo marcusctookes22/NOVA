@@ -525,6 +525,9 @@
   .swatch.bone {
     background: #dedbd0;
   }
+  .swatch.white {
+    background: #fff;
+  }
   .swatch.gray {
     background: #b9bec2;
   }
@@ -624,7 +627,7 @@
   }
   .sets-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 30px;
   }
   .set-card-image {

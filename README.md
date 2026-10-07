@@ -29,7 +29,7 @@ End-to-end tests exercise the production build. They use installed Microsoft Edg
 ## Demo boundaries
 
 - Six routes: `#/`, `#/shop`, `#/product/:slug`, `#/lookbook`, `#/about`, `#/checkout`.
-- Eight individual products, including the heather gray Monogram Zip Hoodie and Sweatpants; three coordinated sets add two existing products with independent sizes.
+- Ten individual products, including Black, Bone, and White No Spells Given colorways and the heather gray Monogram Zip Hoodie and Sweatpants; four coordinated sets add two existing products with independent sizes.
 - The bag persists only `{ slug, size, quantity }` in `nova-demo-bag-v1` localStorage. Unknown/tampered items are discarded. If browser storage is disabled, the bag works in memory for the page session.
 - Contact, shipping, and fake payment inputs are held only in the form. They are never serialized, logged, transmitted, or stored. The final action produces an in-memory fake receipt and clears the bag/form. Refreshing the receipt returns to an empty checkout.
 - Fictional payment number: `4242 4242 4242 4242`; security code: `000`. The form rejects other card numbers. No real payment information should be entered.

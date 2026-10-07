@@ -153,7 +153,7 @@ test("filters, search, quick view, and separate set sizes work", async ({
 }) => {
   await page.goto("/#/shop");
   await page.getByRole("button", { name: "SWEATPANTS", exact: true }).click();
-  await expect(page.locator(".shop-grid .product-card")).toHaveCount(3);
+  await expect(page.locator(".shop-grid .product-card")).toHaveCount(4);
   await page.getByRole("button", { name: "ESSENTIALS", exact: true }).click();
   await expect(page.locator(".shop-grid .product-card")).toHaveCount(1);
   await page.getByRole("button", { name: "SEARCH", exact: true }).click();
@@ -166,15 +166,17 @@ test("filters, search, quick view, and separate set sizes work", async ({
   await expect(page.getByRole("dialog")).toContainText("YOUR BAG (1)");
   await page.keyboard.press("Escape");
   await page.getByRole("button", { name: "SETS", exact: true }).click();
-  await page.getByRole("button", { name: "BUILD YOUR SET" }).first().click();
+  await page
+    .getByRole("button", { name: "Build your set: NOVA Drop 001 Set, White", exact: true })
+    .click();
   await page.getByRole("radio", { name: "M", exact: true }).nth(0).check();
   await page.getByRole("radio", { name: "L", exact: true }).nth(1).check();
   await page
     .getByRole("button", { name: "ADD SET TO BAG", exact: true })
     .click();
   await expect(page.getByRole("dialog")).toContainText("YOUR BAG (3)");
-  await expect(page.getByRole("dialog")).toContainText("Black / White / M");
-  await expect(page.getByRole("dialog")).toContainText("Black / L");
+  await expect(page.getByRole("dialog")).toContainText("White / Black / M");
+  await expect(page.getByRole("dialog")).toContainText("White / L");
 });
 
 test("mobile menu, search navigation, filter sheet, hash refresh, and newsletter demo", async ({

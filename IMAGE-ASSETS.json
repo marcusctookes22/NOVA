@@ -206,5 +206,53 @@
     "height": 1122,
     "alpha": false,
     "bytes": 78202
+  },
+  {
+    "id": "products/no-spells-given-hoodie-white-front",
+    "file": "public/images/products/no-spells-given-hoodie-white-front.webp",
+    "width": 1122,
+    "height": 1402,
+    "alpha": false,
+    "bytes": 56380
+  },
+  {
+    "id": "products/no-spells-given-hoodie-white-back",
+    "file": "public/images/products/no-spells-given-hoodie-white-back.webp",
+    "width": 1122,
+    "height": 1402,
+    "alpha": false,
+    "bytes": 73954
+  },
+  {
+    "id": "products/no-spells-given-hoodie-white-detail",
+    "file": "public/images/products/no-spells-given-hoodie-white-detail.webp",
+    "width": 1122,
+    "height": 1402,
+    "alpha": false,
+    "bytes": 200302
+  },
+  {
+    "id": "products/nova-drop-001-sweatpants-white-front",
+    "file": "public/images/products/nova-drop-001-sweatpants-white-front.webp",
+    "width": 1122,
+    "height": 1402,
+    "alpha": false,
+    "bytes": 51194
+  },
+  {
+    "id": "products/nova-drop-001-sweatpants-white-back",
+    "file": "public/images/products/nova-drop-001-sweatpants-white-back.webp",
+    "width": 1122,
+    "height": 1402,
+    "alpha": false,
+    "bytes": 50274
+  },
+  {
+    "id": "lookbook/drop-001-set-white",
+    "file": "public/images/lookbook/drop-001-set-white.webp",
+    "width": 1402,
+    "height": 1122,
+    "alpha": false,
+    "bytes": 38140
   }
 ]

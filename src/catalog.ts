@@ -14,7 +14,7 @@ export interface Product {
   name: string;
   type: "Hoodie" | "Sweatpants";
   color: string;
-  tone: "black" | "bone" | "gray";
+  tone: "black" | "bone" | "white" | "gray";
   price: number;
   family: string;
   essential?: boolean;
@@ -141,6 +141,32 @@ export const products: Product[] = [
       "images/lookbook/nova-monogram-set-gray-lifestyle.webp",
     ],
   },
+  {
+    slug: "no-spells-given-hoodie-white",
+    name: "No Spells Given Hoodie",
+    type: "Hoodie",
+    color: "White / Black",
+    tone: "white",
+    price: 74,
+    family: "no-spells",
+    description: hoodieDescription,
+    images: ["front", "back", "detail"].map((view) =>
+      image("no-spells-given-hoodie-white", view),
+    ),
+  },
+  {
+    slug: "nova-drop-001-sweatpants-white",
+    name: "NOVA Drop 001 Sweatpants",
+    type: "Sweatpants",
+    color: "White",
+    tone: "white",
+    price: 64,
+    family: "sweatpants",
+    description: pantsDescription,
+    images: ["front", "back"].map((view) =>
+      image("nova-drop-001-sweatpants-white", view),
+    ),
+  },
 ];
 
 export const outfits = [
@@ -161,6 +187,15 @@ export const outfits = [
     alt: "Coordinated bone NOVA lightning hoodie and sweatpants set",
     hoodieSlug: "no-spells-given-hoodie-bone",
     pantsSlug: "nova-drop-001-sweatpants-bone",
+  },
+  {
+    tone: "white",
+    name: "NOVA Drop 001 Set",
+    color: "White",
+    image: "images/lookbook/drop-001-set-white.webp",
+    alt: "Coordinated white NOVA lightning hoodie and sweatpants set",
+    hoodieSlug: "no-spells-given-hoodie-white",
+    pantsSlug: "nova-drop-001-sweatpants-white",
   },
   {
     tone: "gray",
