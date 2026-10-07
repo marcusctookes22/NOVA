@@ -180,6 +180,17 @@
         "C:/Users/pagma/Desktop/NOVA/sets/ChatGPT Image Oct 2, 2026, 11_58_36 PM-1.png",
         "C:/Users/pagma/Desktop/NOVA/designsXLogos/Embroidered NOVA Monogram Logo.png"
       ]
+    },
+    {
+      "id": "lookbook/nova-monogram-set-gray-studio",
+      "refs": [
+        "C:/Users/pagma/Documents/Codex/2026-10-06/files-pasted-by-the-user-nova/outputs/NOVA/public/images/lookbook/drop-001-set-black.webp",
+        "C:/Users/pagma/Documents/Codex/2026-10-06/files-pasted-by-the-user-nova/outputs/NOVA/public/images/products/nova-monogram-zip-hoodie-gray-front.webp",
+        "C:/Users/pagma/Documents/Codex/2026-10-06/files-pasted-by-the-user-nova/outputs/NOVA/public/images/products/nova-monogram-sweatpants-gray-front.webp",
+        "C:/Users/pagma/Desktop/NOVA/sets/ChatGPT Image Oct 2, 2026, 11_58_36 PM-1.png",
+        "C:/Users/pagma/Desktop/NOVA/designsXLogos/Embroidered NOVA Monogram Logo.png"
+      ],
+      "prompt": "Use case: product-mockup.\nAsset type: NOVA Monogram Set coordinated outfit hero image for a storefront set card.\nPrimary request: Generate ONE new premium studio product photo of the complete FRONT-view heather gray NOVA Monogram zip hoodie and sweatpants set. Make its framing, warm light gray seamless studio background, soft lighting and subtle floor shadow match the existing black set photograph.\nInput images: Image 1 is a STYLE AND COMPOSITION reference only: match its landscape 5:4 canvas, central hoodie-above-pants arrangement, outfit scale, clear narrow gap between garments and full head-to-toe garment visibility. Images 2 and 3 are exact GARMENT DESIGN references for the gray hoodie and gray pants. Image 4 is the original gray garment design reference worn by models; extract garment details only. Image 5 is the exact black NOVA monogram/logo reference.\nSubject and invariants: The gray hoodie is an oversized boxy FULL-ZIP hoodie with voluminous dropped-shoulder sleeves, structured hood, silver center zipper, split kangaroo pockets, ribbed cuffs and hem, and pale curved panel seams across the body and sleeves. The matching pants are relaxed and wide leg with elastic waist, pale curved piping on each leg, and OPEN straight hems with natural soft stacking; no gathered ankle cuffs and no external drawstrings. Keep the black embroidered N/orbit/star monogram with serif text \"NOVA\" on wearer left chest and wearer left thigh (viewer right), at the scale shown in Images 2 and 3. Preserve the heather gray fleece texture and real garment proportions.\nComposition: Landscape 5:4 image. One hoodie above one pair of pants, both centered and facing straight forward as invisible mannequin garments, hanging naturally with a small gap. Both full sleeves, hood, waistband and pant hems are completely visible with comfortable outer margins, matching Image 1. High-end catalog photography, soft sculptural shadows, tactile cotton fleece.\nAvoid: people, heads, hands, visible mannequins, hangers, shoes, backgrounds from the lifestyle photo, extra garments, back views, lightning logos, slogans, overlay text, watermarks, collage or borders. No changes to the gray garment design."
     }
   ],
   "reference_assets": [
@@ -188,7 +199,7 @@
       "file": "public/images/lookbook/nova-monogram-set-gray-lifestyle.webp",
       "source": "C:/Users/pagma/Desktop/NOVA/sets/ChatGPT Image Oct 2, 2026, 11_58_36 PM-1.png",
       "operation": "WebP encoding only; no crop, recolor or content edits",
-      "usage": "Gray set card and lifestyle view for both gray products"
+      "usage": "Lifestyle view for both gray products"
     }
   ]
 }

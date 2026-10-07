@@ -637,10 +637,6 @@
     height: 100%;
     transition: transform 0.8s;
   }
-  .set-card.gray .set-card-image img {
-    object-fit: contain;
-    background: #242829;
-  }
   .set-card:hover img {
     transform: scale(1.025);
   }

@@ -198,5 +198,13 @@
     "height": 1254,
     "alpha": false,
     "bytes": 239488
+  },
+  {
+    "id": "lookbook/nova-monogram-set-gray-studio",
+    "file": "public/images/lookbook/nova-monogram-set-gray-studio.webp",
+    "width": 1402,
+    "height": 1122,
+    "alpha": false,
+    "bytes": 78202
   }
 ]
