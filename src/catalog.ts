@@ -14,7 +14,7 @@ export interface Product {
   name: string;
   type: "Hoodie" | "Sweatpants";
   color: string;
-  tone: "black" | "bone";
+  tone: "black" | "bone" | "gray";
   price: number;
   family: string;
   essential?: boolean;
@@ -111,7 +111,68 @@ export const products: Product[] = [
       image("nova-essential-hoodie", view),
     ),
   },
+  {
+    slug: "nova-monogram-zip-hoodie-gray",
+    name: "NOVA Monogram Zip Hoodie",
+    type: "Hoodie",
+    color: "Heather Gray",
+    tone: "gray",
+    price: 74,
+    family: "monogram-zip-hoodie",
+    description:
+      "An oversized heather gray zip-up with a boxy silhouette, curved panel seams, split kangaroo pockets and the black NOVA monogram. Pair it with the matching Monogram Sweatpants.",
+    images: [
+      image("nova-monogram-zip-hoodie-gray", "front"),
+      "images/lookbook/nova-monogram-set-gray-lifestyle.webp",
+    ],
+  },
+  {
+    slug: "nova-monogram-sweatpants-gray",
+    name: "NOVA Monogram Sweatpants",
+    type: "Sweatpants",
+    color: "Heather Gray",
+    tone: "gray",
+    price: 64,
+    family: "monogram-sweatpants",
+    description:
+      "Relaxed heather gray sweatpants with wide legs, open hems, curved pale panel seams and the black NOVA monogram. Made to match the Monogram Zip Hoodie.",
+    images: [
+      image("nova-monogram-sweatpants-gray", "front"),
+      "images/lookbook/nova-monogram-set-gray-lifestyle.webp",
+    ],
+  },
 ];
+
+export const outfits = [
+  {
+    tone: "black",
+    name: "NOVA Drop 001 Set",
+    color: "Black",
+    image: "images/lookbook/drop-001-set-black.webp",
+    alt: "Coordinated black NOVA lightning hoodie and sweatpants set",
+    hoodieSlug: "no-spells-given-hoodie-black",
+    pantsSlug: "nova-drop-001-sweatpants-black",
+  },
+  {
+    tone: "bone",
+    name: "NOVA Drop 001 Set",
+    color: "Bone",
+    image: "images/lookbook/drop-001-set-bone.webp",
+    alt: "Coordinated bone NOVA lightning hoodie and sweatpants set",
+    hoodieSlug: "no-spells-given-hoodie-bone",
+    pantsSlug: "nova-drop-001-sweatpants-bone",
+  },
+  {
+    tone: "gray",
+    name: "NOVA Monogram Set",
+    color: "Heather Gray",
+    image: "images/lookbook/nova-monogram-set-gray-lifestyle.webp",
+    alt: "Two models wearing the heather gray NOVA monogram zip hoodie and wide-leg sweatpants beside a metal shutter",
+    hoodieSlug: "nova-monogram-zip-hoodie-gray",
+    pantsSlug: "nova-monogram-sweatpants-gray",
+  },
+] as const;
+export type SetTone = (typeof outfits)[number]["tone"];
 
 export const getProduct = (slug: string) =>
   products.find((product) => product.slug === slug);

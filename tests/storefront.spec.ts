@@ -153,7 +153,7 @@ test("filters, search, quick view, and separate set sizes work", async ({
 }) => {
   await page.goto("/#/shop");
   await page.getByRole("button", { name: "SWEATPANTS", exact: true }).click();
-  await expect(page.locator(".shop-grid .product-card")).toHaveCount(2);
+  await expect(page.locator(".shop-grid .product-card")).toHaveCount(3);
   await page.getByRole("button", { name: "ESSENTIALS", exact: true }).click();
   await expect(page.locator(".shop-grid .product-card")).toHaveCount(1);
   await page.getByRole("button", { name: "SEARCH", exact: true }).click();

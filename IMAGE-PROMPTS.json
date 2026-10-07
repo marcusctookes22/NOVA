@@ -164,6 +164,31 @@
       ],
       "transparent": true,
       "prompt": "Use case: background-extraction. Asset type: NOVA existing logo transparent cutout for storefront. Input image 1 is the EDIT TARGET, the user's actual embroidered NOVA logo on a white background. Remove ONLY the white background to true alpha transparency. Preserve the complete black stitched logo exactly: intertwined serif N, orbit curve, elongated vertical central star and the NOVA serif wordmark below. Keep all original shapes, proportion, text, edges and thread texture. Do not redesign, simplify, recolor or add anything. Tight square crop with small transparent margins, isolated full complete logo with genuine transparent background, no shadow, no white backdrop, no checkerboard pixels."
+    },
+    {
+      "id": "products/nova-monogram-zip-hoodie-gray-front",
+      "prompt": "Use case: product-mockup. Asset type: NOVA ecommerce catalog front photo. Image 1 is the exact gray tracksuit garment reference; Image 2 is the embroidery/brand mark reference. Generate a photorealistic studio product photograph of ONLY the light heather gray oversized zip-up hoodie shown in Image 1, no person and no trousers. Preserve its full front zipper, cropped boxy ribbed hem, dropped shoulders, voluminous sleeves with rib cuffs, oversized structured hood, split kangaroo pockets, and distinctive pale curved/diagonal panel seams across chest and sleeves. The small black embroidered monogram over the serif word NOVA is on the wearer's left chest (viewer right), closely matching the reference. Do not add lightning bolts, slogans or crystals. Garment suspended naturally on an invisible mannequin, centered and fully visible with generous margins, front facing. Portrait 4:5 composition. Uniform warm light gray seamless studio backdrop, realistic heavyweight heather fleece texture and soft shadow. Exact garment branding text NOVA. No added text, watermark, collage, shoes or other garments.",
+      "refs": [
+        "C:/Users/pagma/Desktop/NOVA/sets/ChatGPT Image Oct 2, 2026, 11_58_36 PM-1.png",
+        "C:/Users/pagma/Desktop/NOVA/designsXLogos/Embroidered NOVA Monogram Logo.png"
+      ]
+    },
+    {
+      "id": "products/nova-monogram-sweatpants-gray-front",
+      "prompt": "Use case: product-mockup. Asset type: NOVA ecommerce catalog front photo. Image 1 is the exact gray tracksuit garment reference; Image 2 is the embroidery/brand mark reference. Generate a photorealistic studio product photograph of ONLY the light heather gray monogram sweatpants shown in Image 1, no person and no hoodie. Preserve its gathered elastic waistband without visible external drawstrings, extremely relaxed wide baggy legs, open straight hems with a slight natural stack, curved pale piping/panel seams sweeping down from the upper inner leg, and a small black embroidered monogram over the serif word NOVA on the wearer's left upper thigh (viewer right), closely matching the reference. No elastic ankle cuffs, lightning bolts or slogans. Both legs fully visible, front facing, naturally suspended on an invisible mannequin. Centered with generous margins, portrait 4:5 composition. Uniform warm light gray seamless studio backdrop, realistic heavyweight heather fleece and soft shadow. Exact garment branding text NOVA. No added text, watermark, collage, shoes or other garments.",
+      "refs": [
+        "C:/Users/pagma/Desktop/NOVA/sets/ChatGPT Image Oct 2, 2026, 11_58_36 PM-1.png",
+        "C:/Users/pagma/Desktop/NOVA/designsXLogos/Embroidered NOVA Monogram Logo.png"
+      ]
+    }
+  ],
+  "reference_assets": [
+    {
+      "id": "lookbook/nova-monogram-set-gray-lifestyle",
+      "file": "public/images/lookbook/nova-monogram-set-gray-lifestyle.webp",
+      "source": "C:/Users/pagma/Desktop/NOVA/sets/ChatGPT Image Oct 2, 2026, 11_58_36 PM-1.png",
+      "operation": "WebP encoding only; no crop, recolor or content edits",
+      "usage": "Gray set card and lifestyle view for both gray products"
     }
   ]
 }

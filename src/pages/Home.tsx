@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { asset, products } from "../catalog";
+import { asset, outfits, products } from "../catalog";
 import type { Product } from "../catalog";
 import { ProductCard } from "../components/ProductCard";
 import { SetCard } from "../components/Outfits";
@@ -179,8 +179,9 @@ export function Home({
           <span className="muted">NOVA DROP 001 SETS</span>
         </div>
         <div className="sets-grid">
-          <SetCard tone="black" onSelect={onSet} />
-          <SetCard tone="bone" onSelect={onSet} />
+          {outfits.map((outfit) => (
+            <SetCard key={outfit.tone} tone={outfit.tone} onSelect={onSet} />
+          ))}
         </div>
       </section>
       <section className="lookbook-preview">

@@ -6,6 +6,15 @@ import { useBag } from "../store";
 import { SizeSelector } from "../components/SizeSelector";
 import { ProductCard } from "../components/ProductCard";
 
+const imageView = (path: string) =>
+  path.includes("lifestyle")
+    ? "lifestyle"
+    : path.includes("back")
+      ? "back"
+      : path.includes("detail")
+        ? "detail"
+        : "front";
+
 export function Product({
   openBag,
   onQuickView,
@@ -78,7 +87,7 @@ function ProductDetail({
             <img
               key={view}
               src={asset(product.images[view])}
-              alt={`${product.name}, ${product.color}, ${product.images[view].includes("back") ? "back" : product.images[view].includes("detail") ? "detail" : "front"} view`}
+              alt={`${product.name}, ${product.color}, ${imageView(product.images[view])} view`}
               width="800"
               height="1000"
               fetchPriority="high"
@@ -93,7 +102,7 @@ function ProductDetail({
                 key={image}
                 className={view === index ? "selected" : ""}
                 onClick={() => setView(index)}
-                aria-label={`Show ${index === 0 ? "front" : image.includes("back") ? "back" : "detail"} image`}
+                aria-label={`Show ${imageView(image)} image`}
                 aria-pressed={view === index}
               >
                 <img src={asset(image)} alt="" width="80" height="100" />
@@ -102,7 +111,11 @@ function ProductDetail({
           </div>
           <div className="gallery-note">
             <span>NOVA // DROP 001</span>
-            <span>AI-GENERATED PRODUCT VISUAL</span>
+            <span>
+              {imageView(product.images[view]) === "lifestyle"
+                ? "USER-SUPPLIED PRODUCT REFERENCE"
+                : "AI-GENERATED PRODUCT VISUAL"}
+            </span>
           </div>
         </div>
         <div className="product-info">

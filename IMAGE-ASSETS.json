@@ -174,5 +174,29 @@
     "height": 1254,
     "alpha": true,
     "bytes": 200906
+  },
+  {
+    "id": "products/nova-monogram-zip-hoodie-gray-front",
+    "file": "public/images/products/nova-monogram-zip-hoodie-gray-front.webp",
+    "width": 1122,
+    "height": 1402,
+    "alpha": false,
+    "bytes": 192306
+  },
+  {
+    "id": "products/nova-monogram-sweatpants-gray-front",
+    "file": "public/images/products/nova-monogram-sweatpants-gray-front.webp",
+    "width": 1122,
+    "height": 1402,
+    "alpha": false,
+    "bytes": 131876
+  },
+  {
+    "id": "lookbook/nova-monogram-set-gray-lifestyle",
+    "file": "public/images/lookbook/nova-monogram-set-gray-lifestyle.webp",
+    "width": 1254,
+    "height": 1254,
+    "alpha": false,
+    "bytes": 239488
   }
 ]

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useSearchParams } from "react-router-dom";
-import { categories, filterProducts } from "../catalog";
+import { categories, filterProducts, outfits } from "../catalog";
 import type { Category, Product } from "../catalog";
 import { Dialog } from "../components/Dialog";
 import { ProductCard } from "../components/ProductCard";
@@ -20,6 +20,9 @@ export function Shop({
   const [tone, setTone] = useState("all");
   const [sort, setSort] = useState("editorial");
   const [filtersOpen, setFiltersOpen] = useState(false);
+  const filteredSets = outfits.filter(
+    (outfit) => tone === "all" || outfit.tone === tone,
+  );
   const filtered = filterProducts(category, "", tone);
   const sorted = [...filtered].sort((a, b) =>
     sort === "low"
@@ -38,6 +41,7 @@ export function Shop({
           <option value="all">All colors</option>
           <option value="black">Black</option>
           <option value="bone">Bone</option>
+          <option value="gray">Heather Gray</option>
         </select>
       </label>
       <label className="filter-select">
@@ -82,19 +86,15 @@ export function Shop({
       </div>
       <div className="catalog-count" aria-live="polite">
         {category === "SETS"
-          ? tone === "all"
-            ? "2 SETS"
-            : "1 SET"
+          ? `${filteredSets.length} ${filteredSets.length === 1 ? "SET" : "SETS"}`
           : `${sorted.length} PIECES`}
         <span>DROP 001 / ALL PRICES USD</span>
       </div>
       {category === "SETS" ? (
         <div className="sets-grid">
-          {(["black", "bone"] as SetTone[])
-            .filter((color) => tone === "all" || color === tone)
-            .map((color) => (
-              <SetCard key={color} tone={color} onSelect={onSet} />
-            ))}
+          {filteredSets.map((outfit) => (
+            <SetCard key={outfit.tone} tone={outfit.tone} onSelect={onSet} />
+          ))}
         </div>
       ) : sorted.length ? (
         <div className="product-grid shop-grid">
