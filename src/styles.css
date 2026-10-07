@@ -1135,7 +1135,8 @@
     max-width: 250px;
   }
   .lookbook-collage > div img {
-    aspect-ratio: 1/1;
+    height: auto;
+    aspect-ratio: auto;
   }
   .lookbook-end {
     text-align: center;
