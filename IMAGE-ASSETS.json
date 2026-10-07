@@ -1,0 +1,178 @@
+[
+  {
+    "id": "products/no-spells-given-hoodie-black-front",
+    "file": "public/images/products/no-spells-given-hoodie-black-front.webp",
+    "width": 1122,
+    "height": 1402,
+    "alpha": false,
+    "bytes": 72438
+  },
+  {
+    "id": "products/no-spells-given-hoodie-black-back",
+    "file": "public/images/products/no-spells-given-hoodie-black-back.webp",
+    "width": 1122,
+    "height": 1402,
+    "alpha": false,
+    "bytes": 88318
+  },
+  {
+    "id": "products/no-spells-given-hoodie-black-detail",
+    "file": "public/images/products/no-spells-given-hoodie-black-detail.webp",
+    "width": 1122,
+    "height": 1402,
+    "alpha": false,
+    "bytes": 278606
+  },
+  {
+    "id": "products/nova-drop-001-sweatpants-black-front",
+    "file": "public/images/products/nova-drop-001-sweatpants-black-front.webp",
+    "width": 1122,
+    "height": 1402,
+    "alpha": false,
+    "bytes": 64280
+  },
+  {
+    "id": "products/nova-drop-001-sweatpants-black-back",
+    "file": "public/images/products/nova-drop-001-sweatpants-black-back.webp",
+    "width": 1122,
+    "height": 1402,
+    "alpha": false,
+    "bytes": 58190
+  },
+  {
+    "id": "products/no-spells-given-hoodie-bone-front",
+    "file": "public/images/products/no-spells-given-hoodie-bone-front.webp",
+    "width": 1122,
+    "height": 1402,
+    "alpha": false,
+    "bytes": 86124
+  },
+  {
+    "id": "products/no-spells-given-hoodie-bone-back",
+    "file": "public/images/products/no-spells-given-hoodie-bone-back.webp",
+    "width": 1122,
+    "height": 1402,
+    "alpha": false,
+    "bytes": 118518
+  },
+  {
+    "id": "products/no-spells-given-hoodie-bone-detail",
+    "file": "public/images/products/no-spells-given-hoodie-bone-detail.webp",
+    "width": 1122,
+    "height": 1402,
+    "alpha": false,
+    "bytes": 277968
+  },
+  {
+    "id": "products/nova-drop-001-sweatpants-bone-front",
+    "file": "public/images/products/nova-drop-001-sweatpants-bone-front.webp",
+    "width": 1122,
+    "height": 1402,
+    "alpha": false,
+    "bytes": 69532
+  },
+  {
+    "id": "products/nova-drop-001-sweatpants-bone-back",
+    "file": "public/images/products/nova-drop-001-sweatpants-bone-back.webp",
+    "width": 1122,
+    "height": 1402,
+    "alpha": false,
+    "bytes": 62218
+  },
+  {
+    "id": "products/nova-crystal-hoodie-front",
+    "file": "public/images/products/nova-crystal-hoodie-front.webp",
+    "width": 1122,
+    "height": 1402,
+    "alpha": false,
+    "bytes": 75844
+  },
+  {
+    "id": "products/nova-crystal-hoodie-detail",
+    "file": "public/images/products/nova-crystal-hoodie-detail.webp",
+    "width": 1122,
+    "height": 1402,
+    "alpha": false,
+    "bytes": 273432
+  },
+  {
+    "id": "products/nova-essential-hoodie-front",
+    "file": "public/images/products/nova-essential-hoodie-front.webp",
+    "width": 1122,
+    "height": 1402,
+    "alpha": false,
+    "bytes": 102998
+  },
+  {
+    "id": "products/nova-essential-hoodie-back",
+    "file": "public/images/products/nova-essential-hoodie-back.webp",
+    "width": 1122,
+    "height": 1402,
+    "alpha": false,
+    "bytes": 73368
+  },
+  {
+    "id": "brand/drop-001-campaign",
+    "file": "public/images/brand/drop-001-campaign.webp",
+    "width": 1672,
+    "height": 941,
+    "alpha": false,
+    "bytes": 221772
+  },
+  {
+    "id": "lookbook/campaign-02",
+    "file": "public/images/lookbook/campaign-02.webp",
+    "width": 1122,
+    "height": 1402,
+    "alpha": false,
+    "bytes": 374982
+  },
+  {
+    "id": "lookbook/campaign-03",
+    "file": "public/images/lookbook/campaign-03.webp",
+    "width": 1122,
+    "height": 1402,
+    "alpha": false,
+    "bytes": 163490
+  },
+  {
+    "id": "lookbook/no-spells-editorial",
+    "file": "public/images/lookbook/no-spells-editorial.webp",
+    "width": 1122,
+    "height": 1402,
+    "alpha": false,
+    "bytes": 107774
+  },
+  {
+    "id": "lookbook/graphic-detail",
+    "file": "public/images/lookbook/graphic-detail.webp",
+    "width": 1122,
+    "height": 1402,
+    "alpha": false,
+    "bytes": 416392
+  },
+  {
+    "id": "lookbook/drop-001-set-black",
+    "file": "public/images/lookbook/drop-001-set-black.webp",
+    "width": 1402,
+    "height": 1122,
+    "alpha": false,
+    "bytes": 37360
+  },
+  {
+    "id": "lookbook/drop-001-set-bone",
+    "file": "public/images/lookbook/drop-001-set-bone.webp",
+    "width": 1402,
+    "height": 1122,
+    "alpha": false,
+    "bytes": 45808
+  },
+  {
+    "id": "brand/nova-embroidered-logo",
+    "file": "public/images/brand/nova-embroidered-logo.webp",
+    "width": 1254,
+    "height": 1254,
+    "alpha": true,
+    "bytes": 200906
+  }
+]

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1250" role="img" aria-label="Photography placeholder: NO SPELLS GIVEN">
+<rect width="1000" height="1250" fill="#dedcd2"/>
+<defs><linearGradient id="light" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f0eee5"/><stop offset="1" stop-color="#dedcd2"/></linearGradient></defs>
+<path d="M360 0H1000V1037.5L80 1250Z" fill="url(#light)"/>
+<path d="M150 200H850V1050H150Z" fill="none" stroke="#c5c2b8" stroke-width="1"/>
+<path d="M100 625H900M500 150V1100" stroke="#c5c2b8" stroke-width="1"/>
+<text x="500" y="537.5" fill="#514f48" opacity=".42" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="210" font-weight="700" letter-spacing="-10">NOVA</text>
+<text x="500" y="650" fill="#514f48" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="18" letter-spacing="4">FRONT / DROP 001</text>
+<text x="500" y="987.5" fill="#514f48" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="18" letter-spacing="3">NO SPELLS GIVEN</text>
+<text x="500" y="1137.5" fill="#514f48" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="15" letter-spacing="3">PHOTOGRAPHY PENDING</text>
+</svg>

@@ -1,0 +1,169 @@
+{
+  "tool": "built-in image_gen",
+  "request": "Generate NOVA storefront imagery from user-supplied garment and logo references",
+  "jobs": [
+    {
+      "id": "products/no-spells-given-hoodie-black-front",
+      "refs": [
+        "C:/Users/pagma/Desktop/NOVA/sets/ChatGPT Image Oct 6, 2026, 08_03_42 PM-1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: NOVA storefront product front image. Input image 1 is the exact garment design reference, a front/back set composite. Photorealistic premium ecommerce studio photograph, portrait 4:5 composition. One garment only, no person, invisible mannequin, centered and completely visible with generous 10% margins. Uniform warm light gray seamless background, soft side lighting, realistic heavyweight cotton fleece texture, refined neutral shadows. No text outside the actual garment print, no frame, no watermark, no collage. Show ONLY the FRONT of the oversized deep black pullover hoodie in the reference. Preserve the dropped shoulders, voluminous sleeves, kangaroo pocket, rib cuffs and hem, structured hood, and small white NOVA/lightning chest logo at wearer left, viewer right. Exactly reproduce the small lightning NOVA mark from this garment reference. No pants. No back print visible."
+    },
+    {
+      "id": "products/no-spells-given-hoodie-black-back",
+      "refs": [
+        "C:/Users/pagma/Desktop/NOVA/sets/ChatGPT Image Oct 6, 2026, 08_03_42 PM-1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: NOVA storefront product back image. Input image 1 is the exact garment design reference, a front/back set composite. Photorealistic premium ecommerce studio photograph, portrait 4:5 composition. One garment only, no person, invisible mannequin, centered and completely visible with generous 10% margins. Uniform warm light gray seamless background, soft side lighting, realistic heavyweight cotton fleece texture, refined neutral shadows. No text outside the actual garment print, no frame, no watermark, no collage. Show ONLY the BACK of the oversized deep black pullover hoodie. Preserve reference silhouette, fabric, hood, cuffs and hem. Reproduce the large white gothic blackletter back statement exactly as in reference. Text on two lines verbatim: \"I don't give a\" then \"Hufflef*ck\" (H-u-f-f-l-e-f-asterisk-c-k). Keep the star-shaped asterisk. This is the referenced garment, no redesigned branding, no additional logo. No pants."
+    },
+    {
+      "id": "products/no-spells-given-hoodie-black-detail",
+      "refs": [
+        "C:/Users/pagma/Desktop/NOVA/sets/ChatGPT Image Oct 6, 2026, 08_03_42 PM-1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: NOVA garment detail image. Input image 1 is the exact product reference. Portrait 4:5 macro photograph of the small white NOVA lightning chest mark on the deep black hoodie in the reference. Only the chest fabric with logo, one curved seam edge and subtle folds; no whole garment and no person. Preserve exact NOVA serif lettering and diagonally angled lightning bolt from reference. Realistic cotton fleece and finely rendered print texture, soft grazing studio light, high-end ecommerce detail photo. No new symbols, no watermark, no other text."
+    },
+    {
+      "id": "products/nova-drop-001-sweatpants-black-front",
+      "refs": [
+        "C:/Users/pagma/Desktop/NOVA/sets/ChatGPT Image Oct 6, 2026, 08_03_42 PM-1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: NOVA storefront sweatpants front image. Input image 1 is the exact front/back set garment reference. Photorealistic premium ecommerce studio photograph, portrait 4:5 composition. One garment only, no person, invisible mannequin, centered and completely visible with generous 10% margins. Uniform warm light gray seamless background, soft side lighting, realistic heavyweight cotton fleece texture, refined neutral shadows. No text outside the actual garment print, no frame, no watermark, no collage. Show ONLY FRONT of the deep black sweatpants, no hoodie. Preserve relaxed baggy legs, elastic waist, cuffs, heavyweight cotton fleece. Two drawstrings with metallic aglets. Small white NOVA lightning logo on wearer left thigh, viewer right, identical to reference. Both legs fully visible, straight hanging naturally, not folded."
+    },
+    {
+      "id": "products/nova-drop-001-sweatpants-black-back",
+      "refs": [
+        "C:/Users/pagma/Desktop/NOVA/sets/ChatGPT Image Oct 6, 2026, 08_03_42 PM-1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: NOVA storefront sweatpants back image. Input image 1 is the exact front/back set garment reference. Photorealistic premium ecommerce studio photograph, portrait 4:5 composition. One garment only, no person, invisible mannequin, centered and completely visible with generous 10% margins. Uniform warm light gray seamless background, soft side lighting, realistic heavyweight cotton fleece texture, refined neutral shadows. No text outside the actual garment print, no frame, no watermark, no collage. Show ONLY BACK of the deep black sweatpants, no hoodie. Preserve relaxed baggy legs, elastic waist, cuffs, heavyweight cotton fleece. Plain back, one square patch pocket at wearer right, identical to reference; no logo or back text. Both legs fully visible, straight hanging naturally, not folded."
+    },
+    {
+      "id": "products/no-spells-given-hoodie-bone-front",
+      "refs": [
+        "C:/Users/pagma/Desktop/NOVA/sets/ChatGPT Image Oct 6, 2026, 08_03_57 PM-3.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: NOVA storefront product front image. Input image 1 is the exact garment design reference, a front/back set composite. Photorealistic premium ecommerce studio photograph, portrait 4:5 composition. One garment only, no person, invisible mannequin, centered and completely visible with generous 10% margins. Uniform warm light gray seamless background, soft side lighting, realistic heavyweight cotton fleece texture, refined neutral shadows. No text outside the actual garment print, no frame, no watermark, no collage. Show ONLY the FRONT of the oversized warm ivory bone pullover hoodie in the reference. Preserve the dropped shoulders, voluminous sleeves, kangaroo pocket, rib cuffs and hem, structured hood, and small black NOVA/lightning chest logo at wearer left, viewer right. Exactly reproduce the small lightning NOVA mark from this garment reference. No pants. No back print visible."
+    },
+    {
+      "id": "products/no-spells-given-hoodie-bone-back",
+      "refs": [
+        "C:/Users/pagma/Desktop/NOVA/sets/ChatGPT Image Oct 6, 2026, 08_03_57 PM-3.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: NOVA storefront product back image. Input image 1 is the exact garment design reference, a front/back set composite. Photorealistic premium ecommerce studio photograph, portrait 4:5 composition. One garment only, no person, invisible mannequin, centered and completely visible with generous 10% margins. Uniform warm light gray seamless background, soft side lighting, realistic heavyweight cotton fleece texture, refined neutral shadows. No text outside the actual garment print, no frame, no watermark, no collage. Show ONLY the BACK of the oversized warm ivory bone pullover hoodie. Preserve reference silhouette, fabric, hood, cuffs and hem. Reproduce the large black gothic blackletter back statement exactly as in reference. Text on two lines verbatim: \"I don't give a\" then \"Hufflef*ck\" (H-u-f-f-l-e-f-asterisk-c-k). Keep the star-shaped asterisk. This is the referenced garment, no redesigned branding, no additional logo. No pants."
+    },
+    {
+      "id": "products/no-spells-given-hoodie-bone-detail",
+      "refs": [
+        "C:/Users/pagma/Desktop/NOVA/sets/ChatGPT Image Oct 6, 2026, 08_03_57 PM-3.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: NOVA garment detail image. Input image 1 is the exact product reference. Portrait 4:5 macro photograph of the small black NOVA lightning chest mark on the warm ivory bone hoodie in the reference. Only the chest fabric with logo, one curved seam edge and subtle folds; no whole garment and no person. Preserve exact NOVA serif lettering and diagonally angled lightning bolt from reference. Realistic cotton fleece and finely rendered print texture, soft grazing studio light, high-end ecommerce detail photo. No new symbols, no watermark, no other text."
+    },
+    {
+      "id": "products/nova-drop-001-sweatpants-bone-front",
+      "refs": [
+        "C:/Users/pagma/Desktop/NOVA/sets/ChatGPT Image Oct 6, 2026, 08_03_57 PM-3.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: NOVA storefront sweatpants front image. Input image 1 is the exact front/back set garment reference. Photorealistic premium ecommerce studio photograph, portrait 4:5 composition. One garment only, no person, invisible mannequin, centered and completely visible with generous 10% margins. Uniform warm light gray seamless background, soft side lighting, realistic heavyweight cotton fleece texture, refined neutral shadows. No text outside the actual garment print, no frame, no watermark, no collage. Show ONLY FRONT of the warm ivory bone sweatpants, no hoodie. Preserve relaxed baggy legs, elastic waist, cuffs, heavyweight cotton fleece. Two drawstrings with metallic aglets. Small black NOVA lightning logo on wearer left thigh, viewer right, identical to reference. Both legs fully visible, straight hanging naturally, not folded."
+    },
+    {
+      "id": "products/nova-drop-001-sweatpants-bone-back",
+      "refs": [
+        "C:/Users/pagma/Desktop/NOVA/sets/ChatGPT Image Oct 6, 2026, 08_03_57 PM-3.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: NOVA storefront sweatpants back image. Input image 1 is the exact front/back set garment reference. Photorealistic premium ecommerce studio photograph, portrait 4:5 composition. One garment only, no person, invisible mannequin, centered and completely visible with generous 10% margins. Uniform warm light gray seamless background, soft side lighting, realistic heavyweight cotton fleece texture, refined neutral shadows. No text outside the actual garment print, no frame, no watermark, no collage. Show ONLY BACK of the warm ivory bone sweatpants, no hoodie. Preserve relaxed baggy legs, elastic waist, cuffs, heavyweight cotton fleece. Plain back, one square patch pocket at wearer right, identical to reference; no logo or back text. Both legs fully visible, straight hanging naturally, not folded."
+    },
+    {
+      "id": "products/nova-crystal-hoodie-front",
+      "refs": [
+        "C:/Users/pagma/Desktop/NOVA/sets/ChatGPT Image Oct 6, 2026, 08_03_42 PM-1.png",
+        "C:/Users/pagma/Desktop/NOVA/designsXLogos/Embroidered NOVA Monogram Logo.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: synthetic NOVA Crystal Hoodie concept for the demo catalog. Input image 1 supplies the black pullover silhouette; image 2 is the exact NOVA monogram and serif wordmark branding reference. Photorealistic premium ecommerce studio photograph, portrait 4:5 composition. One garment only, no person, invisible mannequin, centered and completely visible with generous 10% margins. Uniform warm light gray seamless background, soft side lighting, realistic heavyweight cotton fleece texture, refined neutral shadows. No text outside the actual garment print, no frame, no watermark, no collage. Show FRONT of a deep black oversized pullover hoodie, identical shape to the black reference, dropped shoulders, kangaroo pocket, ribbed cuffs and hem. Across upper center chest place the supplied complete monogram and NOVA serif wordmark as one restrained silver crystal rhinestone embellishment about 18cm wide. Preserve orbit-N-star shapes, do not add lightning chest logo or other graphics. Silver stones catch subtle glints, fine couture detail, garment remains realistic and minimal."
+    },
+    {
+      "id": "products/nova-crystal-hoodie-detail",
+      "refs": [
+        "C:/Users/pagma/Desktop/NOVA/sets/ChatGPT Image Oct 6, 2026, 08_03_42 PM-1.png",
+        "C:/Users/pagma/Desktop/NOVA/designsXLogos/Embroidered NOVA Monogram Logo.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: synthetic NOVA Crystal Hoodie detail. Image 1 supplies black fleece, image 2 is exact branding reference. Portrait 4:5 macro photograph of the supplied complete monogram and NOVA serif wordmark rendered in tiny silver crystal rhinestones on deep black heavyweight hoodie fleece. Preserve exact intertwined N, orbit, central star and NOVA lettering, no new symbols. Restrained silver sparkle, visible textile fibers, softly curved black fleece, grazing studio light. Match a premium black oversized crystal hoodie with this embellishment at the upper center chest. No extra text, no watermark."
+    },
+    {
+      "id": "products/nova-essential-hoodie-front",
+      "refs": [
+        "C:/Users/pagma/Desktop/NOVA/sets/ChatGPT Image Oct 6, 2026, 08_03_42 PM-1.png",
+        "C:/Users/pagma/Desktop/NOVA/designsXLogos/Embroidered NOVA Monogram Logo.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: synthetic NOVA Essential Hoodie front concept. Image 1 supplies oversized pullover construction; image 2 supplies exact NOVA monogram and wordmark. Photorealistic premium ecommerce studio photograph, portrait 4:5 composition. One garment only, no person, invisible mannequin, centered and completely visible with generous 10% margins. Uniform warm light gray seamless background, soft side lighting, realistic heavyweight cotton fleece texture, refined neutral shadows. No text outside the actual garment print, no frame, no watermark, no collage. Show FRONT of washed charcoal black oversized pullover hoodie, structured hood, dropped shoulders, kangaroo pocket, rib cuffs and hem. Small supplied complete monogram with NOVA wordmark stitched in pale ivory thread at wearer left chest, viewer right. Preserve exact orbit-N-star and serif NOVA shapes from image 2, logo subtle 7cm wide. No lightning logo and no crystals. No pants."
+    },
+    {
+      "id": "products/nova-essential-hoodie-back",
+      "refs": [
+        "C:/Users/pagma/Desktop/NOVA/sets/ChatGPT Image Oct 6, 2026, 08_03_42 PM-1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: synthetic NOVA Essential Hoodie back concept. Input image 1 supplies the pullover construction. Photorealistic premium ecommerce studio photograph, portrait 4:5 composition. One garment only, no person, invisible mannequin, centered and completely visible with generous 10% margins. Uniform warm light gray seamless background, soft side lighting, realistic heavyweight cotton fleece texture, refined neutral shadows. No text outside the actual garment print, no frame, no watermark, no collage. Show BACK of a washed charcoal black oversized pullover hoodie, same structured hood, dropped shoulders, voluminous sleeves, rib cuffs and hem. Completely plain back with NO print, NO lettering and NO logo. Preserve heavyweight cotton fleece with subtly washed charcoal surface. No pants."
+    },
+    {
+      "id": "brand/drop-001-campaign",
+      "refs": [
+        "C:/Users/pagma/Desktop/NOVA/sets/ChatGPT Image Oct 2, 2026, 11_58_36 PM-1.png",
+        "C:/Users/pagma/Desktop/NOVA/sets/ChatGPT Image Oct 6, 2026, 08_03_42 PM-1.png",
+        "C:/Users/pagma/Desktop/NOVA/sets/ChatGPT Image Oct 6, 2026, 08_03_57 PM-3.png",
+        "C:/Users/pagma/Desktop/NOVA/designsXLogos/Embroidered NOVA Monogram Logo.png"
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: NOVA website wide hero campaign image. Image 1 references urban campaign mood and voluminous streetwear styling; image 2 references exact black lightning hoodie/pants set; image 3 references exact bone lightning set; image 4 references embroidered NOVA monogram used by brand, not an extra overlay. Create a NEW fashion editorial with two adult models, one adult Black man in the black pullover set and one adult woman in the bone pullover set, standing casually in an industrial urban courtyard near weathered concrete and a metal roller shutter. Oversized silhouettes and logo placement must match garment references. Wide cinematic 16:9 composition. Models full length together in RIGHT 55% of frame, left 45% is dark quiet textured concrete negative space for website typography. Front views; small chest/thigh NOVA lightning branding, no other text. Natural overcast directional light, realistic skin, subdued warm gray and black palette, premium independent streetwear editorial, confident understated stance, slightly low angle. No watermark, no OEM/ODM label, no UI, no headline, no fake graphic overlay."
+    },
+    {
+      "id": "lookbook/campaign-02",
+      "refs": [
+        "C:/Users/pagma/Desktop/NOVA/sets/ChatGPT Image Oct 2, 2026, 11_58_36 PM-1.png",
+        "C:/Users/pagma/Desktop/NOVA/designsXLogos/Embroidered NOVA Monogram Logo.png"
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: NOVA portrait lookbook fashion editorial. Image 1 is garment and urban mood reference; image 2 is exact embroidered NOVA branding. Create NEW portrait 4:5 street fashion photograph of one adult Black male model in light heather gray oversized ZIP-UP hoodie and matching very baggy sweatpants with curved stitched seam panels, exact silhouette like reference, black NOVA monogram and serif wordmark embroidered at left chest and left thigh. White tee beneath and weathered tan work boots. Full body with feet visible, leaning loosely on a corrugated industrial shutter, centered with margin for crop. Natural overcast daylight, tactile fleece, serious relaxed expression, documentary fashion editorial, charcoal surroundings. No watermark, no labels, no overlay text, no other brand logos."
+    },
+    {
+      "id": "lookbook/campaign-03",
+      "refs": [
+        "C:/Users/pagma/Desktop/NOVA/sets/ChatGPT Image Oct 6, 2026, 08_03_50 PM-2.png",
+        "C:/Users/pagma/Desktop/NOVA/sets/ChatGPT Image Oct 6, 2026, 08_03_57 PM-3.png"
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: NOVA portrait lookbook editorial. Images 1 and 2 reference exact white and bone statement hoodie/sweatpants sets respectively. Create NEW portrait 4:5 editorial photo of two adult models in an industrial concrete stairwell, one in the white pullover set facing forward and one in bone pullover set turned three-quarter away. Match oversized dropped shoulder hoodies, baggy cuffed pants and small lightning NOVA chest/thigh branding. Bone hoodie back statement exactly \"I don't give a\" on first line and \"Hufflef*ck\" on second in black gothic lettering, matching reference. White sneakers, only two adult subjects. Elegant off-center full length framing, natural window light, soft neutral tones, authentic streetwear attitude. No watermarks, no extra text or UI."
+    },
+    {
+      "id": "lookbook/no-spells-editorial",
+      "refs": [
+        "C:/Users/pagma/Desktop/NOVA/sets/ChatGPT Image Oct 6, 2026, 08_03_42 PM-1.png"
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: NOVA portrait statement-piece editorial. Input image 1 is exact black hoodie/pants reference. Create NEW portrait 4:5 premium streetwear photograph of an adult male model in this black oversized pullover hoodie, seen from the BACK, hood down, in a dark weathered concrete passage. Frame from top of head to upper legs, back graphic entirely clear and centered, model casually turning head slightly. Exactly match reference cut and WHITE gothic back statement, two lines verbatim \"I don't give a\" then \"Hufflef*ck\" (H-u-f-f-l-e-f-asterisk-c-k), with star-shaped asterisk. No new logos, no extra text. Soft overcast rim light reveals cotton texture, black and warm concrete monochrome palette, editorial realism. No watermark."
+    },
+    {
+      "id": "lookbook/graphic-detail",
+      "refs": [
+        "C:/Users/pagma/Desktop/NOVA/designsXLogos/Embroidered NOVA Monogram Logo.png"
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: NOVA brand embroidery editorial detail. Input image 1 is the exact black embroidered NOVA monogram and serif NOVA wordmark reference. Create a portrait 4:5 macro studio photograph of this complete embroidery stitched in black thread into softly folded light heather gray heavyweight cotton fleece, like the supplied gray NOVA tracksuits. Preserve intertwined N/orbit/star geometry and NOVA serif lettering precisely. Fill 65% of the frame with the mark, with fabric edges and draped folds around it. Raking natural light reveals fine stitched thread and gray fibers. Minimal quiet composition, no new symbols, no overlay text or watermark."
+    },
+    {
+      "id": "lookbook/drop-001-set-black",
+      "refs": [
+        "C:/Users/pagma/Desktop/NOVA/sets/ChatGPT Image Oct 6, 2026, 08_03_42 PM-1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: NOVA coordinated outfit studio photograph. Input image 1 is exact black hoodie and sweatpants reference. Create a NEW high-end studio photo in landscape 5:4 composition of ONE complete FRONT-view black with white branding NOVA hoodie and sweatpants outfit, arranged as an invisible mannequin set, hoodie above pants with a small natural gap, centered and fully visible. Preserve oversized pullover hoodie, kangaroo pocket, rib cuffs and hem, baggy cuffed sweatpants, drawstring aglets, and small NOVA lightning mark at left chest and left thigh exactly as reference. Clean warm gray seamless background, tactile fleece, soft sculptural shadow, editorial catalog quality. No back view, no duplicated garments, no person, no shoes, no overlay text, no watermark."
+    },
+    {
+      "id": "lookbook/drop-001-set-bone",
+      "refs": [
+        "C:/Users/pagma/Desktop/NOVA/sets/ChatGPT Image Oct 6, 2026, 08_03_57 PM-3.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: NOVA coordinated outfit studio photograph. Input image 1 is exact bone hoodie and sweatpants reference. Create a NEW high-end studio photo in landscape 5:4 composition of ONE complete FRONT-view bone cream with black branding NOVA hoodie and sweatpants outfit, arranged as an invisible mannequin set, hoodie above pants with a small natural gap, centered and fully visible. Preserve oversized pullover hoodie, kangaroo pocket, rib cuffs and hem, baggy cuffed sweatpants, drawstring aglets, and small NOVA lightning mark at left chest and left thigh exactly as reference. Clean warm gray seamless background, tactile fleece, soft sculptural shadow, editorial catalog quality. No back view, no duplicated garments, no person, no shoes, no overlay text, no watermark."
+    },
+    {
+      "id": "brand/nova-embroidered-logo",
+      "refs": [
+        "C:/Users/pagma/Desktop/NOVA/designsXLogos/Embroidered NOVA Monogram Logo.png"
+      ],
+      "transparent": true,
+      "prompt": "Use case: background-extraction. Asset type: NOVA existing logo transparent cutout for storefront. Input image 1 is the EDIT TARGET, the user's actual embroidered NOVA logo on a white background. Remove ONLY the white background to true alpha transparency. Preserve the complete black stitched logo exactly: intertwined serif N, orbit curve, elongated vertical central star and the NOVA serif wordmark below. Keep all original shapes, proportion, text, edges and thread texture. Do not redesign, simplify, recolor or add anything. Tight square crop with small transparent margins, isolated full complete logo with genuine transparent background, no shadow, no white backdrop, no checkerboard pixels."
+    }
+  ]
+}

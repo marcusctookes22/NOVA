@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1200" role="img" aria-label="Photography placeholder: NOVA // DROP 001">
+<rect width="1800" height="1200" fill="#282827"/>
+<defs><linearGradient id="light" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#494946"/><stop offset="1" stop-color="#282827"/></linearGradient></defs>
+<path d="M648 0H1800V996L144 1200Z" fill="url(#light)"/>
+<path d="M270 192H1530V1008H270Z" fill="none" stroke="#474743" stroke-width="1"/>
+<path d="M180 600H1620M900 144V1056" stroke="#474743" stroke-width="1"/>
+<text x="900" y="516" fill="#b7b7b0" opacity=".42" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="378" font-weight="700" letter-spacing="-18">NOVA</text>
+<text x="900" y="624" fill="#b7b7b0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="18" letter-spacing="4">CAMPAIGN / DROP 001</text>
+<text x="900" y="948" fill="#b7b7b0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="18" letter-spacing="3">NOVA // DROP 001</text>
+<text x="900" y="1092" fill="#b7b7b0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="15" letter-spacing="3">PHOTOGRAPHY PENDING</text>
+</svg>
